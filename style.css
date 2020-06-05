@@ -10,12 +10,14 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #1a2b34;
-  font-size: 20px;
+  font-size: 23px;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 1em;
   font-family: OCR A Std, monospace;
   color: white;
+  position: sticky;
+  top: 0;
 }
 
 #name {
@@ -32,10 +34,43 @@ body {
 #main-container {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
 }
 
 .section {
   display: flex;
   justify-content: center;
+  margin-top: 5em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  background-color: white;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#section-title {
+  font-family: OCR A Std, monospace;
+  color: #1a2b34;
+  font-size: 28px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-sub {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+#about-sub img {
+  width: 45%;
+}
+
+#about-words {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
