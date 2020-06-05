@@ -39,15 +39,15 @@ body {
 .section {
   display: flex;
   justify-content: center;
-  margin-top: 5em;
+  margin-top: 3em;
   padding-top: 1em;
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
   background-color: white;
   margin-left: 2em;
   margin-right: 2em;
 }
 
-#section-title {
+.section-title {
   font-family: OCR A Std, monospace;
   color: #1a2b34;
   font-size: 28px;
@@ -73,4 +73,11 @@ body {
   width: 40%;
   display: flex;
   flex-direction: column;
+  line-height: 1.4em;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+}
+
+.about-me {
+  margin-top: 2em;
 }
