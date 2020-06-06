@@ -14,7 +14,7 @@ body {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 1em;
-  font-family: OCR A Std, monospace;
+  font-family: monospace;
   color: white;
   position: sticky;
   top: 0;
@@ -64,7 +64,7 @@ p {
   border-right: solid 3px #f5f4f4;
   white-space: nowrap;
   overflow: hidden;
-  font-family: OCR A Std, monospace;
+  font-family: monospace;
   font-size: 28px;
   color: #f5f4f4;
 }
@@ -114,7 +114,7 @@ p {
 }
 
 .section-title {
-  font-family: OCR A Std, monospace;
+  font-family: monospace;
   color: #1a2b34;
   font-size: 28px;
   text-decoration: underline;
@@ -273,7 +273,7 @@ p {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 1em;
-  font-family: OCR A Std, monospace;
+  font-family: monospace;
   color: white;
 }
 
