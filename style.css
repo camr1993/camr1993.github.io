@@ -242,6 +242,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 3em;
 }
 
 #blog-img {
@@ -261,4 +262,39 @@ p {
 
 #blog-img {
   margin-top: 0.5em;
+}
+
+#footer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1a2b34;
+  font-size: 23px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  font-family: OCR A Std, monospace;
+  color: white;
+}
+
+/* #github {
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+} */
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+#social {
+  display: flex;
+}
+
+#github {
+  margin-right: 1em;
+}
+
+#linkedin {
 }
