@@ -117,6 +117,7 @@ p {
   font-family: OCR A Std, monospace;
   color: #1a2b34;
   font-size: 28px;
+  text-decoration: underline;
 }
 
 #about-main {
@@ -128,7 +129,7 @@ p {
 :target {
   display: block;
   position: relative;
-  top: -52px;
+  top: -100px;
   visibility: hidden;
 }
 
