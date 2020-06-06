@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <a id="top"></a>
     <div id="nav">
-      <div id="name">Cameron Ratliff</div>
+      <a id="name" href="#top">Cameron Ratliff</a>
       <div id="anchors">
         <a id="about-nav" href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -51,16 +52,61 @@
         <div class="section-title">Projects</div>
         <div id="projects-container">
           <div class="each-project">
-            <div>React Hookify</div>
-            <img src="hookifyImg.png" alt="" />
+            <div class="each-project-top">
+              <div class="project-title">React Hookify</div>
+              <a href="https://react-hookify.herokuapp.com/" target="_blank">
+                <img class="project-img" src="hookifyImg.png" alt="" />
+              </a>
+              <div class="project-desc">
+                CLI tool that converts React class components into functional
+                components with hooks
+              </div>
+              <div class="project-desc">
+                Developed with Node.js, JavaScript, and RegEx
+              </div>
+            </div>
+            <a href="https://github.com/camr1993/ReactHookify" target="_blank">
+              <img class="code-button" src="codeButton.png" alt="" />
+            </a>
           </div>
           <div class="each-project">
-            <div>RICK'S Sporting Goods</div>
-            <img src="ricksImg.png" alt="" />
+            <div class="each-project-top">
+              <div class="project-title">RICK'S Sporting Goods</div>
+              <a
+                href="https://ricks-sporting-goods.herokuapp.com/"
+                target="_blank"
+              >
+                <img class="project-img" src="ricksImg.png" alt="" />
+              </a>
+              <div class="project-desc">
+                A mock e-commerce website for buying sporting goods
+              </div>
+              <div class="project-desc">
+                Developed with Node.js, Express, React, Redux, Sequelize,
+                PostgreSQL
+              </div>
+            </div>
+            <a href="https://github.com/camr1993/Grace-Shopper" target="_blank">
+              <img class="code-button" src="codeButton.png" alt="" />
+            </a>
           </div>
           <div class="each-project">
-            <div>Penguin Game</div>
-            <img src="penguinImg.png" alt="" />
+            <div class="each-project-top">
+              <div class="project-title">Penguin Game</div>
+              <a href="https://penguin-game-007.herokuapp.com/" target="_blank">
+                <img class="project-img" src="penguinImg.png" alt="" />
+              </a>
+              <div class="project-desc">
+                A two player, online fighter game designed to be played on a web
+                browser
+              </div>
+              <div class="project-desc">
+                Developed with Phaser 3 game engine, Socket.io, Express
+              </div>
+            </div>
+            <a href="https://github.com/camr1993/penguin-game" target="_blank">
+              <img class="code-button" src="codeButton.png" alt="" />
+            </a>
           </div>
         </div>
       </div>
