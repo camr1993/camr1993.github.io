@@ -29,6 +29,64 @@ body {
   text-decoration: none;
   margin-right: 1em;
   cursor: pointer;
+  /* transition: text-decoration 3s ease; */
+}
+
+#anchors a {
+  transition: color 0.3s ease;
+}
+
+#anchors a:hover {
+  color: grey;
+}
+
+#main-img {
+  display: flex;
+  justify-content: center;
+}
+
+#main-img img {
+  width: 100%;
+  margin-top: -10em;
+}
+
+p {
+  position: absolute;
+  margin-top: 1.5em;
+  border-right: solid 3px #f5f4f4;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: OCR A Std, monospace;
+  font-size: 28px;
+  color: #f5f4f4;
+}
+
+/* Animation */
+p {
+  animation: animated-text 4s steps(36) 1s 1 normal both,
+    animated-cursor 600ms steps(36) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 590px;
+  }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: #f5f4f4;
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 #main-container {
