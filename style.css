@@ -118,6 +118,15 @@ p {
   align-items: center;
 }
 
+#main-container div::before {
+  display: block;
+  content: ' ';
+  margin-top: -285px;
+  height: 285px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 #about-sub {
   margin-top: 2em;
   display: flex;
