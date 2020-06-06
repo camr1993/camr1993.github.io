@@ -18,6 +18,7 @@ body {
   color: white;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 #name {
@@ -120,20 +121,23 @@ p {
 #about-sub {
   margin-top: 2em;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 
 #about-sub img {
-  width: 45%;
+  height: 300px;
+  padding-left: 2em;
 }
 
 #about-words {
-  width: 40%;
+  padding-left: 2em;
+  padding-right: 2em;
   display: flex;
   flex-direction: column;
   line-height: 1.4em;
   font-family: Lato, sans-serif;
   font-weight: lighter;
+  align-self: flex-start;
 }
 
 .about-me {
