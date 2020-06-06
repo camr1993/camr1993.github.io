@@ -112,19 +112,25 @@ p {
   font-size: 28px;
 }
 
-#about {
+#about-main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#main-container div::before {
+/* #about::before {
   display: block;
   content: ' ';
-  margin-top: -285px;
-  height: 285px;
+  margin-top: -52px;
+  height: 52px;
   visibility: hidden;
-  pointer-events: none;
+} */
+
+:target {
+  display: block;
+  position: relative;
+  top: -52px;
+  visibility: hidden;
 }
 
 #about-sub {
@@ -153,7 +159,7 @@ p {
   margin-top: 2em;
 }
 
-#projects {
+#projects-main {
   display: flex;
   flex-direction: column;
   align-items: center;
