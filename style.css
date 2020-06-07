@@ -55,7 +55,8 @@ body {
 }
 
 #main-img img {
-  width: 100%;
+  /* width: 100%; */
+  width: 100vw;
   margin-top: -10em;
 }
 
@@ -451,6 +452,10 @@ p {
     align-items: center;
   }
 
+  .about-me {
+    text-align: center;
+  }
+
   #aboutImg {
     padding-left: 0;
     margin-bottom: 1em;
@@ -511,6 +516,7 @@ p {
 
   #footer {
     flex-direction: column;
+    padding-bottom: 1em;
   }
 
   #email {
