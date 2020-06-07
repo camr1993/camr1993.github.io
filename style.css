@@ -50,7 +50,7 @@ body {
 
 #main-img {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 #main-img img {
@@ -61,6 +61,7 @@ body {
 p {
   position: absolute;
   margin-top: 1.5em;
+  margin-left: 0.9em;
   border-right: solid 3px #f5f4f4;
   white-space: nowrap;
   overflow: hidden;
