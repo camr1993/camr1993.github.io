@@ -341,6 +341,25 @@ p {
   }
 }
 
+@media (min-width: 1900px) {
+  p {
+    font-size: 50px;
+  }
+
+  #nav {
+    font-size: 45px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 1055px;
+    }
+  }
+}
+
 @media (max-width: 842px) {
   p {
     margin-top: 1em;
