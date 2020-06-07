@@ -350,6 +350,13 @@ p {
     font-size: 45px;
   }
 
+  #main-img {
+    height: 1265px;
+  }
+  #main-img img {
+    object-fit: cover;
+  }
+
   @keyframes animated-text {
     from {
       width: 0;
