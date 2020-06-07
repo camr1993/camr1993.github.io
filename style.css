@@ -51,12 +51,11 @@ body {
 
 #main-img {
   display: flex;
-  /* justify-content: center; */
 }
 
 #main-img img {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  margin: auto;
   margin-top: -10em;
 }
 
