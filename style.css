@@ -54,8 +54,8 @@ body {
 }
 
 #main-img img {
-  max-width: 100%;
-  margin: auto;
+  width: 100%;
+  /* add it to img, make CSS clearer. Try putting a div around it */
   margin-top: -10em;
 }
 
