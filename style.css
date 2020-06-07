@@ -367,10 +367,32 @@ p {
   }
 }
 
+/* screen smaller than...*/
+
+@media (max-width: 1106px) {
+  #about-sub {
+    align-items: flex-start;
+  }
+}
+
 @media (max-width: 842px) {
   p {
     margin-top: 1em;
     font-size: 25px;
+  }
+
+  #about-sub {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #aboutImg {
+    padding-left: 0;
+    margin-bottom: 1em;
+  }
+
+  #socials {
+    margin-right: 0;
   }
 
   @keyframes animated-text {
