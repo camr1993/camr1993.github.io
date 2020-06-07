@@ -498,6 +498,10 @@ p {
   p {
     display: none;
   }
+
+  #main-img img {
+    margin-top: -5em;
+  }
 }
 
 @media (max-width: 491px) {
