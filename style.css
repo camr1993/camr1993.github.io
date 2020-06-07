@@ -1,5 +1,6 @@
 html {
   background-color: #f5f4f4;
+  scroll-behavior: smooth;
 }
 
 body {
