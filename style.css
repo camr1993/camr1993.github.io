@@ -139,7 +139,7 @@ p {
   align-items: center;
 }
 
-#about-sub img {
+#aboutImg {
   height: 300px;
   padding-left: 2em;
 }
@@ -256,7 +256,7 @@ p {
   font-weight: lighter;
   font-size: 17px;
   margin-top: 1.5em;
-  width: 250px;
+  width: 230px;
   text-align: center;
 }
 
@@ -268,33 +268,33 @@ p {
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1a2b34;
+  justify-content: space-between;
+  background-color: #c4a29e;
   font-size: 23px;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 1em;
   font-family: monospace;
-  color: white;
+  color: #1a2b34;
 }
 
-/* #github {
-  height: 30px;
-  background-color: grey;
-  border-radius: 50%;
-} */
+/* border-radius: 50%; */
 
 #contact {
   display: flex;
   justify-content: space-between;
 }
 
-#social {
+#socials {
   display: flex;
+  margin-right: 1.5em;
 }
 
-#github {
-  margin-right: 1em;
+#github-logo {
+  height: 30px;
+  margin-right: 1.5em;
 }
 
-#linkedin {
+#linkedIn-logo {
+  height: 30px;
 }
