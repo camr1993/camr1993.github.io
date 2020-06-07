@@ -21,15 +21,15 @@ body {
   z-index: 2;
 }
 
-#name {
-  font-size: 25px;
+#home {
   color: white;
+  text-decoration: none;
   text-decoration: none;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
-#name:hover {
+#home:hover {
   color: grey;
 }
 
@@ -298,4 +298,93 @@ p {
 
 #linkedIn-logo {
   height: 30px;
+}
+
+@media (min-width: 1200px) {
+  p {
+    margin-top: 2em;
+    font-size: 33px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 696px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  #nav {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1600px) {
+  p {
+    font-size: 42px;
+  }
+
+  #nav {
+    font-size: 35px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 885px;
+    }
+  }
+}
+
+@media (max-width: 842px) {
+  p {
+    margin-top: 1em;
+    font-size: 25px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 527px;
+    }
+  }
+}
+
+@media (max-width: 783px) {
+  p {
+    margin-top: 0.7em;
+    font-size: 20px;
+  }
+
+  #nav {
+    font-size: 20px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 422px;
+    }
+  }
+}
+
+@media (max-width: 710px) {
+  p {
+    display: none;
+  }
+}
+
+@media (max-width: 491px) {
+  #nav {
+    display: none;
+  }
 }
