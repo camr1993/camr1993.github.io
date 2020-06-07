@@ -300,6 +300,8 @@ p {
   height: 30px;
 }
 
+/* screen bigger than ...*/
+
 @media (min-width: 1200px) {
   p {
     margin-top: 2em;
@@ -319,6 +321,9 @@ p {
 @media (min-width: 1400px) {
   #nav {
     font-size: 32px;
+  }
+  #about-words {
+    font-size: 18px;
   }
 }
 
@@ -341,6 +346,55 @@ p {
   }
 }
 
+@media (min-width: 1800px) {
+  #about-words {
+    font-size: 19px;
+  }
+
+  .project-title {
+    font-size: 19px;
+  }
+
+  .project-desc {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .project-img {
+    height: 250px;
+  }
+
+  #resume-img {
+    height: 325px;
+  }
+
+  #blog-img {
+    height: 325px;
+  }
+
+  #email {
+    font-size: 35px;
+  }
+
+  #main-img {
+    height: 1190px;
+  }
+  #main-img img {
+    object-fit: cover;
+  }
+
+  #github-logo {
+    height: 40px;
+  }
+
+  #linkedIn-logo {
+    height: 40px;
+  }
+}
+
 @media (min-width: 1900px) {
   p {
     font-size: 50px;
@@ -348,13 +402,6 @@ p {
 
   #nav {
     font-size: 45px;
-  }
-
-  #main-img {
-    height: 1265px;
-  }
-  #main-img img {
-    object-fit: cover;
   }
 
   @keyframes animated-text {
@@ -367,11 +414,28 @@ p {
   }
 }
 
+@media (min-width: 2000px) {
+  #about-words {
+    font-size: 22px;
+  }
+}
+
 /* screen smaller than...*/
 
 @media (max-width: 1106px) {
   #about-sub {
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 955px) {
+  #projects-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .each-project {
+    margin-bottom: 2.5em;
   }
 }
 
@@ -393,6 +457,10 @@ p {
 
   #socials {
     margin-right: 0;
+  }
+
+  #footer {
+    padding-right: 2em;
   }
 
   @keyframes animated-text {
@@ -434,5 +502,13 @@ p {
 @media (max-width: 491px) {
   #nav {
     display: none;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+
+  #email {
+    margin-bottom: 0.5em;
   }
 }
