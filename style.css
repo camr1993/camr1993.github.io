@@ -164,6 +164,10 @@ p {
   margin-top: 2em;
 }
 
+#first-about-me {
+  margin-top: 0;
+}
+
 #projects-main {
   display: flex;
   flex-direction: column;
