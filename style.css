@@ -53,10 +53,12 @@ body {
   display: flex;
 }
 
-#main-img img {
-  /* width: 100%; */
-  width: 1px;
-  min-width: 100%;
+#wyoming-container {
+  width: 100%;
+}
+
+#wyoming-img {
+  width: 100%;
   /* add it to img, make CSS clearer. Try putting a div around it */
   margin-top: -10em;
 }
@@ -385,7 +387,7 @@ p {
   #main-img {
     height: 1190px;
   }
-  #main-img img {
+  #wyoming-img {
     object-fit: cover;
   }
 
@@ -505,7 +507,7 @@ p {
     display: none;
   }
 
-  #main-img img {
+  #wyoming-img {
     margin-top: -5em;
   }
 }
