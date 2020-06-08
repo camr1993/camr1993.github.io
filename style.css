@@ -512,7 +512,7 @@ p {
 
 @media (max-width: 491px) {
   #nav {
-    display: none;
+    font-size: 16px;
   }
 
   p {
@@ -540,6 +540,10 @@ p {
 }
 
 @media (max-width: 428px) {
+  #nav {
+    font-size: 13px;
+  }
+
   #wyoming-img {
     margin-top: -3em;
   }
@@ -560,6 +564,10 @@ p {
 }
 
 @media (max-width: 350px) {
+  #nav {
+    font-size: 10px;
+  }
+
   #wyoming-img {
     margin-top: -1em;
   }
