@@ -59,7 +59,6 @@ body {
 
 #wyoming-img {
   width: 100%;
-  /* add it to img, make CSS clearer. Try putting a div around it */
   margin-top: -10em;
 }
 
@@ -284,8 +283,6 @@ p {
   color: #1a2b34;
 }
 
-/* border-radius: 50%; */
-
 #contact {
   display: flex;
   justify-content: space-between;
@@ -384,10 +381,8 @@ p {
     font-size: 35px;
   }
 
-  #main-img {
-    height: 1190px;
-  }
   #wyoming-img {
+    height: 1350px;
     object-fit: cover;
   }
 
@@ -442,6 +437,9 @@ p {
   .each-project {
     margin-bottom: 2.5em;
   }
+  #wyoming-img {
+    margin-top: -7em;
+  }
 }
 
 @media (max-width: 842px) {
@@ -483,12 +481,12 @@ p {
 }
 
 @media (max-width: 783px) {
-  p {
-    margin-top: 0.7em;
+  #nav {
     font-size: 20px;
   }
 
-  #nav {
+  p {
+    margin-top: 1.5em;
     font-size: 20px;
   }
 
@@ -502,11 +500,7 @@ p {
   }
 }
 
-@media (max-width: 710px) {
-  p {
-    display: none;
-  }
-
+@media (max-width: 650px) {
   #wyoming-img {
     margin-top: -5em;
   }
@@ -517,6 +511,20 @@ p {
     display: none;
   }
 
+  p {
+    margin-top: 1em;
+    font-size: 16px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 338px;
+    }
+  }
+
   #footer {
     flex-direction: column;
     padding-bottom: 1em;
@@ -524,5 +532,45 @@ p {
 
   #email {
     margin-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 428px) {
+  #wyoming-img {
+    margin-top: -3em;
+  }
+
+  p {
+    margin-top: 1.5em;
+    font-size: 12px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 253px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #wyoming-img {
+    margin-top: -1em;
+  }
+
+  p {
+    margin-top: 2em;
+    font-size: 10px;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 210px;
+    }
   }
 }
